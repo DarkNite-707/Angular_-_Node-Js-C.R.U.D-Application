@@ -1,0 +1,21 @@
+ <!-- This method was adapted from the IIE lab Guide (APDS7311) 2022
+ The Independent Institute of Education. 2022. Application development security APDS7311 Lab Guide 2022 (First Edition:2021) -->
+
+<h1> ADD A FRUIT </h1>
+
+<form (submit)="onaddfruit(addFruit)" #addFruit="ngForm">
+
+  <input type="text" ngModel name="enteredID" placeholder="Fruit ID" required minlength="1"   
+  pattern="^[a-zA-Z0-9\s_-]+$"
+    #enteredID="ngModel" />
+    <!-- <h2></h2> -->
+    <Br>
+  <input type="text" ngModel name="enteredName" placeholder="Fruit Name" required minlength="1"
+    pattern="^[a-zA-Z0-9\s_-]+$" #enteredName="ngModel" />
+
+    <!-- <h2></h2> -->
+    <Br>
+      <Br>
+  <button type="submit">Add Fruit</button>
+
+</form>

@@ -1,0 +1,32 @@
+nav{
+
+    text-align:right;
+    font-size: xx-large;
+    color: black;
+    font-family: Helvetica Neue;
+    position: absolute;
+    top: 0;
+   
+}
+
+
+a{
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    border: 10px solid rgb(187, 179, 179);
+    
+}
+
+h1{
+text-align:right;
+color: black;
+font-size: 60px;
+font-style: normal;
+font-weight: 900;
+font-family:Helvetica Neue;
+margin-top: 0%;
+top:0;
+font-style: italic;
+}
+

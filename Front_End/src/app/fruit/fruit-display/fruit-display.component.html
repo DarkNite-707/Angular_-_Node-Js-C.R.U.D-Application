@@ -1,0 +1,26 @@
+
+<h1>LIST OF FRUITS</h1>
+<div *ngFor="let fruit of fruits">
+  <table>
+    <tr>
+      <th>LIST OF FRUITS</th>
+    </tr>
+    <th>
+      <!-- <p></p> -->
+      <img src="https://www.halegroves.com/images/xl/all-seasons-fruit-basket-240-081721.jpg?v=0-1" >
+      <!-- <br> -->
+      <!-- <img src="https://t3.ftcdn.net/jpg/02/08/87/72/360_F_208877202_ajKv3atSZW21td1xR8lFxn6QJvyWBe8c.jpg"> -->
+      <br>
+      <!-- <img src="https://t3.ftcdn.net/jpg/00/82/14/46/360_F_82144678_0h4z2B1xEyesYnZ0iboknZAwMjQ5PXzF.jpg" > -->
+  {{fruit.id}}
+  {{fruit.name}}
+
+<br>
+<!-- <p></p> -->
+ <button (click)="ondelete(fruit._id)">Delete</button>
+
+</th> 
+</table>
+  <p></p>
+
+</div>

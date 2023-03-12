@@ -1,0 +1,21 @@
+<!-- <p>post-create works!</p> -->
+
+<h1> ADD A POST </h1>
+
+
+<form (submit)="onaddpost(addPost)" #addPost="ngForm">
+
+  <input type="text" ngModel name="enteredID" placeholder="Post ID" required minlength="1"   
+  pattern="^[a-zA-Z0-9\s_-]+$"
+    #enteredID="ngModel" />
+    <br>
+    <!-- <h2></h2> -->
+  <input type="text" ngModel name="enteredName" placeholder="Post Name" required minlength="1"
+    pattern="^[a-zA-Z0-9\s_-]+$" #enteredName="ngModel" />
+<br>
+    <!-- <h2></h2> -->
+    <Br>
+      <Br>
+  <button type="submit">Add Post</button>
+
+</form>

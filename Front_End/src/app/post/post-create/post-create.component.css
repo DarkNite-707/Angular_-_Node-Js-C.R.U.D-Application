@@ -1,0 +1,31 @@
+input[type=text] {
+    width: 20%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid rgb(131, 131, 131);
+    border-radius: 4px;
+  }
+
+  button {
+    background-color: transparent; 
+    border: 5px solid#B22222;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    border-radius: 4px;
+    font-family:Helvetica Neue;
+    font-weight: bold;
+  }
+
+  h1{
+    color: black;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 900;
+    font-family: Helvetica Neue;
+    margin: 0px;
+      }

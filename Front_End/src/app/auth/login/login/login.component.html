@@ -1,0 +1,20 @@
+<!-- This method was adapted from the IIE lab Guide (APDS7311) 2022
+The Independent Institute of Education. 2022. Application development security APDS7311 Lab Guide 2022 (First Edition:2021) -->
+
+<h1>LOGIN/REGISTER</h1>
+<form (submit)="onlogin(loginform)" #loginform="ngForm">
+
+  <input type="text" ngModel name="enteredusername" placeholder="Enter username" required minlength="1" 
+    pattern="^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$" #enteredusername="ngModel" />
+    <div *ngIf="enteredusername.invalid && (enteredusername.dirty || enteredusername.touched)">Invalid</div>
+    <br>
+<!-- <h2></h2> -->
+  <input type="text" ngModel name="enteredpassword" placeholder="Enter Password" required minlength="1" 
+    pattern="^([a-zA-Z0-9@*#]{8,15})$" #enteredpassword="ngModel" />
+    <div *ngIf="enteredpassword.invalid && (enteredpassword.dirty || enteredpassword.touched)">Invalid</div>
+    <br>
+    <!-- <h2></h2> -->
+    <br>
+  <button type="submit">{{option}}</button>
+
+</form>
